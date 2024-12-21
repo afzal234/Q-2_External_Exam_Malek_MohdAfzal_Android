@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/title_do_not_disturb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do Not Disturb"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subtitle_do_not_disturb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customize the feedback for the notification mode with reduced distractions"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginBottom="8dp" />
+
+
+
+
+        <Switch
+            android:id="@+id/switch_sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sound" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short Sound for notifications"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginBottom="8dp" />
+
+        <Switch
+            android:id="@+id/switch_vibration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vibration"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Short vibration for notifications"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginBottom="8dp" />
+
+        <Switch
+            android:id="@+id/switch_led"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LED"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turn on the hardware LED for notifications"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginBottom="8dp" />
+
+        <Switch
+            android:id="@+id/switch_banners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Banners"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification banners overlaid over apps"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginBottom="16dp" />
+
+        <Switch
+            android:id="@+id/switch_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Content"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification content on banners"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginBottom="16dp" />
+
+        <Switch
+            android:id="@+id/switch_lockscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Content"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification banners on the lock screen"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+    </LinearLayout>
+
+
+</ScrollView>
